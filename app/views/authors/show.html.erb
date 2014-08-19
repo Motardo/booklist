@@ -13,7 +13,16 @@
               :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
               :class => 'btn btn-danger' %>
 
-<div id=books>
-  books
+
+<div>
+<h2>Books</h2>
+  <div id=books>
+    <% @author.books.each do |book| %>
+      <div class='row'>
+        <%= link_to h(book.title), author_book_path(@author, book), class: 'btn btn-default col-xs-8' %>
+        <div class='col-xs-4'><%= "#{time_ago_in_words l book.created_at} ago" %></div>
+      </div>
+    <% end %>
+  </div>
 </div>
 

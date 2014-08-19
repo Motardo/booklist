@@ -4,7 +4,7 @@ class AuthorsController < ApplicationController
   # GET /authors
   # GET /authors.json
   def index
-    @authors = Author.all
+    @authors = Author.order(sort_column + " " + sort_direction)
   end
 
   # GET /authors/1
@@ -70,5 +70,13 @@ class AuthorsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def author_params
       params.require(:author).permit(:firstName, :lastName)
+    end
+
+    def sort_column
+      params[:sort] || "lastName"
+    end
+
+    def sort_direction
+      params[:direction] || "asc"
     end
 end
