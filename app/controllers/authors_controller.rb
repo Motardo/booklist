@@ -4,12 +4,21 @@ class AuthorsController < ApplicationController
   # GET /authors
   # GET /authors.json
   def index
-    @authors = Author.order(sort_column + " " + sort_direction)
+    if params[:sort] == 'recent'
+      all = Author.all
+      @authors = all.sort_by { |a| a.last_read }
+      if params[:direction] == 'desc'
+        @authors.reverse!
+      end
+    else
+      @authors = Author.order(sort_column + " " + sort_direction)
+    end
   end
 
   # GET /authors/1
   # GET /authors/1.json
   def show
+    @books = Book.where("author_id = ?", params[:id]).order("#{params[:sort]} #{params[:direction]}")
   end
 
   # GET /authors/new
@@ -73,10 +82,10 @@ class AuthorsController < ApplicationController
     end
 
     def sort_column
-      params[:sort] || "lastName"
+      params[:sort] || 'id'
     end
 
     def sort_direction
-      params[:direction] || "asc"
+      params[:direction] || 'asc'
     end
 end
