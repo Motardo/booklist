@@ -1,0 +1,422 @@
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/version.rb:5: warning: loading in progress, circular require considered harmful - /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass.rb
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/exe/rspec:4:in  `<main>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:38:in  `invoke'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:70:in  `run'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:85:in  `run'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:97:in  `setup'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `load_spec_files'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `each'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `block in load_spec_files'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `load'
+	from /home/nathan/rails/booklist/spec/controllers/authors_controller_spec.rb:1:in  `<top (required)>'
+	from /home/nathan/rails/booklist/spec/controllers/authors_controller_spec.rb:1:in  `require'
+	from /home/nathan/rails/booklist/spec/rails_helper.rb:4:in  `<top (required)>'
+	from /home/nathan/rails/booklist/spec/rails_helper.rb:4:in  `require'
+	from /home/nathan/rails/booklist/config/environment.rb:2:in  `<top (required)>'
+	from /home/nathan/rails/booklist/config/environment.rb:2:in  `require'
+	from /home/nathan/rails/booklist/config/application.rb:14:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler.rb:133:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:61:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:61:in  `each'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:72:in  `block in require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:72:in  `each'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:76:in  `block (2 levels) in require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:76:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass-rails.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass-rails.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails.rb:8:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails.rb:8:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails/helpers.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails/helpers.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sprockets-2.11.0/lib/sprockets/sass_functions.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sprockets-2.11.0/lib/sprockets/sass_functions.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass.rb:9:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass.rb:9:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/version.rb:5:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/version.rb:5:in  `require'
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/version.rb:115: warning: File.exists? is a deprecated name, use File.exist? instead
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/version.rb:90: warning: File.exists? is a deprecated name, use File.exist? instead
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/version.rb:95: warning: File.exists? is a deprecated name, use File.exist? instead
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/tree/node.rb:73: warning: method redefined; discarding old children=
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:197: warning: literal in condition
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:8: warning: loading in progress, circular require considered harmful - /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/string.rb
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/exe/rspec:4:in  `<main>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:38:in  `invoke'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:70:in  `run'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:85:in  `run'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:97:in  `setup'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `load_spec_files'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `each'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `block in load_spec_files'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `load'
+	from /home/nathan/rails/booklist/spec/controllers/authors_controller_spec.rb:1:in  `<top (required)>'
+	from /home/nathan/rails/booklist/spec/controllers/authors_controller_spec.rb:1:in  `require'
+	from /home/nathan/rails/booklist/spec/rails_helper.rb:4:in  `<top (required)>'
+	from /home/nathan/rails/booklist/spec/rails_helper.rb:4:in  `require'
+	from /home/nathan/rails/booklist/config/environment.rb:2:in  `<top (required)>'
+	from /home/nathan/rails/booklist/config/environment.rb:2:in  `require'
+	from /home/nathan/rails/booklist/config/application.rb:14:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler.rb:133:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:61:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:61:in  `each'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:72:in  `block in require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:72:in  `each'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:76:in  `block (2 levels) in require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:76:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass-rails.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass-rails.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails.rb:8:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails.rb:8:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails/helpers.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails/helpers.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sprockets-2.11.0/lib/sprockets/sass_functions.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sprockets-2.11.0/lib/sprockets/sass_functions.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass.rb:93:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass.rb:93:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/engine.rb:40:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/engine.rb:40:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script.rb:4:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script.rb:4:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/operation.rb:2:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/operation.rb:2:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/string.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/string.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:7:in  `<module:Script>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:8:in  `<class:Literal>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:8:in  `require'
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/number.rb:1: warning: loading in progress, circular require considered harmful - /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/exe/rspec:4:in  `<main>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:38:in  `invoke'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:70:in  `run'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:85:in  `run'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:97:in  `setup'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `load_spec_files'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `each'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `block in load_spec_files'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `load'
+	from /home/nathan/rails/booklist/spec/controllers/authors_controller_spec.rb:1:in  `<top (required)>'
+	from /home/nathan/rails/booklist/spec/controllers/authors_controller_spec.rb:1:in  `require'
+	from /home/nathan/rails/booklist/spec/rails_helper.rb:4:in  `<top (required)>'
+	from /home/nathan/rails/booklist/spec/rails_helper.rb:4:in  `require'
+	from /home/nathan/rails/booklist/config/environment.rb:2:in  `<top (required)>'
+	from /home/nathan/rails/booklist/config/environment.rb:2:in  `require'
+	from /home/nathan/rails/booklist/config/application.rb:14:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler.rb:133:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:61:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:61:in  `each'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:72:in  `block in require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:72:in  `each'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:76:in  `block (2 levels) in require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:76:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass-rails.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass-rails.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails.rb:8:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails.rb:8:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails/helpers.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails/helpers.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sprockets-2.11.0/lib/sprockets/sass_functions.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sprockets-2.11.0/lib/sprockets/sass_functions.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass.rb:93:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass.rb:93:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/engine.rb:40:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/engine.rb:40:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script.rb:4:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script.rb:4:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/operation.rb:2:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/operation.rb:2:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/string.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/string.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:7:in  `<module:Script>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:9:in  `<class:Literal>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:9:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/number.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/number.rb:1:in  `require'
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/color.rb:1: warning: loading in progress, circular require considered harmful - /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/exe/rspec:4:in  `<main>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:38:in  `invoke'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:70:in  `run'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:85:in  `run'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:97:in  `setup'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `load_spec_files'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `each'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `block in load_spec_files'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `load'
+	from /home/nathan/rails/booklist/spec/controllers/authors_controller_spec.rb:1:in  `<top (required)>'
+	from /home/nathan/rails/booklist/spec/controllers/authors_controller_spec.rb:1:in  `require'
+	from /home/nathan/rails/booklist/spec/rails_helper.rb:4:in  `<top (required)>'
+	from /home/nathan/rails/booklist/spec/rails_helper.rb:4:in  `require'
+	from /home/nathan/rails/booklist/config/environment.rb:2:in  `<top (required)>'
+	from /home/nathan/rails/booklist/config/environment.rb:2:in  `require'
+	from /home/nathan/rails/booklist/config/application.rb:14:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler.rb:133:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:61:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:61:in  `each'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:72:in  `block in require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:72:in  `each'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:76:in  `block (2 levels) in require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:76:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass-rails.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass-rails.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails.rb:8:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails.rb:8:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails/helpers.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails/helpers.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sprockets-2.11.0/lib/sprockets/sass_functions.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sprockets-2.11.0/lib/sprockets/sass_functions.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass.rb:93:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass.rb:93:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/engine.rb:40:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/engine.rb:40:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script.rb:4:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script.rb:4:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/operation.rb:2:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/operation.rb:2:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/string.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/string.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:7:in  `<module:Script>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:10:in  `<class:Literal>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:10:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/color.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/color.rb:1:in  `require'
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/bool.rb:1: warning: loading in progress, circular require considered harmful - /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/exe/rspec:4:in  `<main>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:38:in  `invoke'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:70:in  `run'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:85:in  `run'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:97:in  `setup'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `load_spec_files'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `each'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `block in load_spec_files'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `load'
+	from /home/nathan/rails/booklist/spec/controllers/authors_controller_spec.rb:1:in  `<top (required)>'
+	from /home/nathan/rails/booklist/spec/controllers/authors_controller_spec.rb:1:in  `require'
+	from /home/nathan/rails/booklist/spec/rails_helper.rb:4:in  `<top (required)>'
+	from /home/nathan/rails/booklist/spec/rails_helper.rb:4:in  `require'
+	from /home/nathan/rails/booklist/config/environment.rb:2:in  `<top (required)>'
+	from /home/nathan/rails/booklist/config/environment.rb:2:in  `require'
+	from /home/nathan/rails/booklist/config/application.rb:14:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler.rb:133:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:61:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:61:in  `each'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:72:in  `block in require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:72:in  `each'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:76:in  `block (2 levels) in require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:76:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass-rails.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass-rails.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails.rb:8:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails.rb:8:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails/helpers.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails/helpers.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sprockets-2.11.0/lib/sprockets/sass_functions.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sprockets-2.11.0/lib/sprockets/sass_functions.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass.rb:93:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass.rb:93:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/engine.rb:40:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/engine.rb:40:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script.rb:4:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script.rb:4:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/operation.rb:2:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/operation.rb:2:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/string.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/string.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:7:in  `<module:Script>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:11:in  `<class:Literal>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:11:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/bool.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/bool.rb:1:in  `require'
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/null.rb:1: warning: loading in progress, circular require considered harmful - /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/exe/rspec:4:in  `<main>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:38:in  `invoke'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:70:in  `run'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:85:in  `run'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/runner.rb:97:in  `setup'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `load_spec_files'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `each'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `block in load_spec_files'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib/rspec/core/configuration.rb:1058:in  `load'
+	from /home/nathan/rails/booklist/spec/controllers/authors_controller_spec.rb:1:in  `<top (required)>'
+	from /home/nathan/rails/booklist/spec/controllers/authors_controller_spec.rb:1:in  `require'
+	from /home/nathan/rails/booklist/spec/rails_helper.rb:4:in  `<top (required)>'
+	from /home/nathan/rails/booklist/spec/rails_helper.rb:4:in  `require'
+	from /home/nathan/rails/booklist/config/environment.rb:2:in  `<top (required)>'
+	from /home/nathan/rails/booklist/config/environment.rb:2:in  `require'
+	from /home/nathan/rails/booklist/config/application.rb:14:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler.rb:133:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:61:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:61:in  `each'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:72:in  `block in require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:72:in  `each'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:76:in  `block (2 levels) in require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@global/gems/bundler-1.7.0/lib/bundler/runtime.rb:76:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass-rails.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass-rails.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails.rb:8:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails.rb:8:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails/helpers.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails/helpers.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sprockets-2.11.0/lib/sprockets/sass_functions.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sprockets-2.11.0/lib/sprockets/sass_functions.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass.rb:93:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass.rb:93:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/engine.rb:40:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/engine.rb:40:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script.rb:4:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script.rb:4:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/operation.rb:2:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/operation.rb:2:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/string.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/string.rb:1:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:7:in  `<module:Script>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:12:in  `<class:Literal>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/literal.rb:12:in  `require'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/null.rb:1:in  `<top (required)>'
+	from /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/null.rb:1:in  `require'
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/parser.rb:265: warning: literal in condition
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/script/parser.rb:278: warning: literal in condition
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/scss/parser.rb:444: warning: literal in condition
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/scss/parser.rb:671: warning: literal in condition
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-3.2.19/lib/sass/scss/static_parser.rb:31: warning: literal in condition
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails/importer.rb:23: warning: method redefined; discarding old find_relative
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sprockets-2.11.0/lib/sprockets/sass_importer.rb:13: warning: previous definition of find_relative was here
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails/importer.rb:31: warning: method redefined; discarding old find
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sprockets-2.11.0/lib/sprockets/sass_importer.rb:21: warning: previous definition of find was here
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sass-rails-4.0.3/lib/sass/rails/template.rb:5: warning: method redefined; discarding old evaluate
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/sprockets-2.11.0/lib/sprockets/sass_template.rb:36: warning: previous definition of evaluate was here
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/extensions/x86_64-linux/2.1.0/therubyracer-0.12.1/v8/init.so: warning: method redefined; discarding old IntegerValue
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/error.rb:43: warning: assigned but unused variable - trace_framework
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/error.rb:69: warning: `*' interpreted as argument prefix
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/error.rb:74: warning: `*' interpreted as argument prefix
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/error.rb:64: warning: assigned but unused variable - backtrace
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/access/invocation.rb:16: warning: `*' interpreted as argument prefix
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/access/invocation.rb:27: warning: `*' interpreted as argument prefix
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/access/invocation.rb:31: warning: `*' interpreted as argument prefix
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @constructor not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @constructor not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @constructor not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @constructor not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/less-rails-2.5.0/lib/less/rails/template_handlers.rb:33: warning: `*' interpreted as argument prefix
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:49: warning: instance variable @template not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/therubyracer-0.12.1/lib/v8/weak.rb:56: warning: instance variable @ref not initialized
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/less-rails-2.5.0/lib/less/rails/railtie.rb:17: warning: possibly useless use of :: in void context
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/mail-2.5.4/lib/mail/network/delivery_methods/sendmail.rb:53: warning: shadowing outer local variable - to
+/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/twitter-bootstrap-rails-3.2.0/app/helpers/twitter_breadcrumbs_helper.rb:3: warning: assigned but unused variable - default_options
+/home/nathan/.rvm/rubies/ruby-2.1.2/bin/ruby -I/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/lib:/home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-support-3.0.4/lib -S /home/nathan/.rvm/gems/ruby-2.1.2@rails4.0.9/gems/rspec-core-3.0.4/exe/rspec ./spec/controllers/authors_controller_spec.rb ./spec/controllers/books_controller_spec.rb ./spec/helpers/authors_helper_spec.rb ./spec/helpers/books_helper_spec.rb ./spec/models/author_spec.rb ./spec/models/book_spec.rb ./spec/requests/authors_spec.rb ./spec/requests/books_spec.rb ./spec/routing/authors_routing_spec.rb ./spec/routing/books_routing_spec.rb ./spec/views/authors/edit.html.erb_spec.rb ./spec/views/authors/index.html.erb_spec.rb ./spec/views/authors/new.html.erb_spec.rb ./spec/views/authors/show.html.erb_spec.rb ./spec/views/books/edit.html.erb_spec.rb ./spec/views/books/index.html.erb_spec.rb ./spec/views/books/new.html.erb_spec.rb ./spec/views/books/show.html.erb_spec.rb failed
