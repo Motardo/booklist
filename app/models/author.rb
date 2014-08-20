@@ -5,7 +5,11 @@ class Author < ActiveRecord::Base
   def last_read
     id = self.id
     book = Book.where("author_id = ?", id).order("read_date desc").first
-    return book.read_date
+    if book
+      book.read_date
+    else
+      Time.now
+    end
   end
 
   def name
