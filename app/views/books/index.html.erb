@@ -9,7 +9,7 @@
       <th><%= model_class.human_attribute_name(:title) %></th>
       <th><%= model_class.human_attribute_name(:description) %></th>
       <th><%= model_class.human_attribute_name(:pubYear) %></th>
-      <th><%= model_class.human_attribute_name(:readDate) %></th>
+      <th><%= model_class.human_attribute_name(:read_date) %></th>
       <th><%= model_class.human_attribute_name(:author_id) %></th>
       <th><%= model_class.human_attribute_name(:created_at) %></th>
       <th><%=t '.actions', :default => t("helpers.actions") %></th>
@@ -22,7 +22,7 @@
         <td><%= book.title %></td>
         <td><%= book.description %></td>
         <td><%= book.pubYear %></td>
-        <td><%= book.readDate %></td>
+        <td><%= book.read_date %></td>
         <td><%= book.author_id %></td>
         <td><%=l book.created_at %></td>
         <td>

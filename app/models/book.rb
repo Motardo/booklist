@@ -3,6 +3,6 @@ class Book < ActiveRecord::Base
   after_initialize :defaults
 
   def defaults
-    self.readDate ||= Time.now
+    self.read_date ||= Time.now
   end
 end

@@ -5,14 +5,14 @@
 <div class="table table-striped">
   <div>
     <div class='row'>
-      <div class='col-xs-8'><%= sortable 'lastName', 'Name' %></div>
+      <div class='col-xs-8'><%= sortable 'last_name', 'Name' %></div>
       <div class='col-xs-4'><%= sortable 'recent', 'Last Read' %></div>
     </div>
   </div>
   <div>
     <% @authors.each do |author| %>
       <div class='row'>
-        <%= link_to h("#{author.lastName}, #{author.firstName}"), author_path(author), class: 'btn btn-default col-xs-8' %>
+        <%= link_to h("#{author.last_name}, #{author.first_name}"), author_path(author), class: 'btn btn-default col-xs-8' %>
         <div class='col-xs-4'><%= "#{time_ago_in_words l author.last_read} ago" %></div>
       </div>
     <% end %>

@@ -4,7 +4,7 @@ class CreateBooks < ActiveRecord::Migration
       t.string :title
       t.text :description
       t.integer :pubYear
-      t.datetime :readDate
+      t.datetime :read_date
       t.references :author, index: true
 
       t.timestamps

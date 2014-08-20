@@ -14,8 +14,8 @@
 ActiveRecord::Schema.define(version: 20140819155522) do
 
   create_table "authors", force: true do |t|
-    t.string   "firstName"
-    t.string   "lastName"
+    t.string   "first_name"
+    t.string   "last_name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -24,7 +24,7 @@ ActiveRecord::Schema.define(version: 20140819155522) do
     t.string   "title"
     t.text     "description"
     t.integer  "pubYear"
-    t.datetime "readDate"
+    t.datetime "read_date"
     t.integer  "author_id"
     t.datetime "created_at"
     t.datetime "updated_at"

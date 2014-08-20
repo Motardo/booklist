@@ -1,6 +1,6 @@
 <%- model_class = Author -%>
 <div class="page-header">
-  <h1><%=t '.title', :default => "#{@author.firstName} #{@author.lastName}".titleize %></h1>
+  <h1><%=t '.title', :default => "#{@author.first_name} #{@author.last_name}".titleize %></h1>
 </div>
 
 <%= link_to t('.back', :default => t("helpers.links.back")),
@@ -18,18 +18,18 @@
   <h2>Books</h2>
   <div class='row'>
     <div class='col-xs-8'><%= sortable 'title', 'Title' %></div>
-    <div class='col-xs-4'><%= sortable 'readDate', 'Date Read' %></div>
+    <div class='col-xs-4'><%= sortable 'read_date', 'Date Read' %></div>
   </div>
   <div id='books'>
     <% @books.each do |book| %>
       <div class='row'>
         <%= link_to h(book.title), author_book_path(@author, book), class: 'btn btn-default col-xs-8' %>
-        <div class='col-xs-4'><%= "#{time_ago_in_words l book.readDate} ago" %></div>
+        <div class='col-xs-4'><%= "#{time_ago_in_words l book.read_date} ago" %></div>
       </div>
     <% end %>
   </div>
 </div>
-<%= link_to "Add book for #{@author.firstName} #{@author.lastName}",
+<%= link_to "Add book for #{@author.first_name} #{@author.last_name}",
             new_author_book_path(@author.id),
             :class => 'btn btn-primary' %>
 
