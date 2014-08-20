@@ -1,6 +1,6 @@
 class Author < ActiveRecord::Base
   validates :first_name, :last_name, presence: true
-  has_many :books
+  has_many :books, dependent: :destroy
 
   def last_read
     id = self.id
@@ -13,6 +13,6 @@ class Author < ActiveRecord::Base
   end
 
   def name
-    self.first_name + " " + self.last_name
+    (self.first_name + " " + self.last_name).titleize
   end
 end

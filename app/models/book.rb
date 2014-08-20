@@ -4,5 +4,9 @@ class Book < ActiveRecord::Base
 
   def defaults
     self.read_date ||= Time.now
+    if self.author_id
+      author = Author.find(self.author_id)
+      self.auth = author.last_name[0..3].titleize
+    end
   end
 end

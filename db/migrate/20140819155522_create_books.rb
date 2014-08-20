@@ -5,6 +5,7 @@ class CreateBooks < ActiveRecord::Migration
       t.text :description
       t.integer :year_published
       t.datetime :read_date
+      t.string :auth
       t.references :author, index: true
 
       t.timestamps

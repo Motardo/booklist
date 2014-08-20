@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 20140819155522) do
     t.text     "description"
     t.integer  "year_published"
     t.datetime "read_date"
+    t.string   "auth"
     t.integer  "author_id"
     t.datetime "created_at"
     t.datetime "updated_at"

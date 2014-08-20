@@ -1,12 +1,12 @@
 <%- model_class = Author -%>
 <div class="page-header">
-  <h1>Authors</h1>
+  <h1><%= "#{@authors.length} Authors" %></h1>
 </div>
 <div>
   <div>
     <div class='row'>
-      <div class='col-xs-8'><%= sortable 'last_name', 'Name' %></div>
-      <div class='col-xs-4'><%= sortable 'recent', 'Last Read' %></div>
+      <div class='col-xs-8 strech'><%= sortable 'last_name', 'Name' %></div>
+      <div class='col-xs-4 strech'><%= sortable 'recent', 'Last Read' %></div>
     </div>
   </div>
   <div>

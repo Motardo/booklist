@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+.strech {
+    padding-left: 0;
+    padding-right: 0;
+}

@@ -1,5 +1,6 @@
 class AuthorsController < ApplicationController
   before_action :set_author, only: [:show, :edit, :update, :destroy]
+  before_action :set_menu
 
   # GET /authors
   # GET /authors.json
@@ -19,6 +20,7 @@ class AuthorsController < ApplicationController
   # GET /authors/1.json
   def show
     @books = Book.where("author_id = ?", params[:id]).order("#{params[:sort]} #{params[:direction]}")
+    @menu1 = { text: "New Book for #{@author.name}", path: "/authors/#{@author.id}/books/new" }
   end
 
   # GET /authors/new
@@ -28,6 +30,7 @@ class AuthorsController < ApplicationController
 
   # GET /authors/1/edit
   def edit
+    @menu1 = { text: "New Book for #{@author.name}", path: "/authors/#{@author.id}/books/new" }
   end
 
   # POST /authors
@@ -87,5 +90,10 @@ class AuthorsController < ApplicationController
 
     def sort_direction
       params[:direction] || 'asc'
+    end
+
+    def set_menu
+      @menu1 = { text: 'New Book', path: '/books/new' }
+      @menu2 = { text: 'New Author', path: '/authors/new' }
     end
 end

@@ -1,16 +1,18 @@
 class BooksController < ApplicationController
   before_action :set_book, only: [:show, :edit, :update, :destroy]
   before_action :set_author
+  before_action :set_menu
 
   # GET /books
   # GET /books.json
   def index
-    @books = Book.all
+    @books = Book.order(sort_column + " " + sort_direction)
   end
 
   # GET /books/1
   # GET /books/1.json
   def show
+    @menu1 = { text: "New Book for #{@author.name}", path: "/authors/#{@author.id}/books/new" }
   end
 
   # GET /books/new
@@ -25,6 +27,7 @@ class BooksController < ApplicationController
 
   # GET /books/1/edit
   def edit
+    @menu1 = { text: "New Book for #{@author.name}", path: "/authors/#{@author.id}/books/new" }
   end
 
   # POST /books
@@ -98,5 +101,18 @@ class BooksController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def book_params
       params.require(:book).permit(:title, :description, :year_published, :read_date, :author_id)
+    end
+
+    def set_menu
+      @menu1 = { text: 'New Book', path: '/books/new' }
+      @menu2 = { text: 'New Author', path: '/authors/new' }
+    end
+
+    def sort_column
+      params[:sort] ||= 'id'
+    end
+
+    def sort_direction
+      params[:direction] || 'asc'
     end
 end
