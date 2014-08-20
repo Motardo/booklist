@@ -4,12 +4,12 @@ RSpec.describe "authors/index", :type => :view do
   before(:each) do
     assign(:authors, [
       Author.create!(
-        :firstName => "First Name",
-        :lastName => "Last Name"
+        :first_name => "First Name",
+        :last_name => "Last Name"
       ),
       Author.create!(
-        :firstName => "First Name",
-        :lastName => "Last Name"
+        :first_name => "First Name",
+        :last_name => "Last Name"
       )
     ])
   end

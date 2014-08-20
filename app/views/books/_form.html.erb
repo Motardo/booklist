@@ -30,11 +30,11 @@
     <%= error_span(@book[:description]) %>
   </div>
   <div class="control-group">
-    <%= f.label :pubYear, :class => 'control-label' %>
+    <%= f.label :year_published, :class => 'control-label' %>
     <div class="controls">
-      <%= f.text_field :pubYear, :class => 'form-control' %>
+      <%= f.text_field :year_published, :class => 'form-control' %>
     </div>
-    <%= error_span(@book[:pubYear]) %>
+    <%= error_span(@book[:year_published]) %>
   </div>
   <div class="control-group">
     <%= f.label :read_date, :class => 'control-label' %>

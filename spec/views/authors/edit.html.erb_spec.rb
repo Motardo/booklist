@@ -3,8 +3,8 @@ require 'rails_helper'
 RSpec.describe "authors/edit", :type => :view do
   before(:each) do
     @author = assign(:author, Author.create!(
-      :firstName => "MyString",
-      :lastName => "MyString"
+      :first_name => "MyString",
+      :last_name => "MyString"
     ))
   end
 
@@ -13,9 +13,9 @@ RSpec.describe "authors/edit", :type => :view do
 
     assert_select "form[action=?][method=?]", author_path(@author), "post" do
 
-      assert_select "input#author_firstName[name=?]", "author[firstName]"
+      assert_select "input#author_first_name[name=?]", "author[first_name]"
 
-      assert_select "input#author_lastName[name=?]", "author[lastName]"
+      assert_select "input#author_last_name[name=?]", "author[last_name]"
     end
   end
 end

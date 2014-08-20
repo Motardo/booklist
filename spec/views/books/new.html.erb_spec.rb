@@ -5,7 +5,7 @@ RSpec.describe "books/new", :type => :view do
     assign(:book, Book.new(
       :title => "MyString",
       :description => "MyText",
-      :pubYear => 1,
+      :year_published => 1,
       :author => nil
     ))
   end
@@ -19,7 +19,7 @@ RSpec.describe "books/new", :type => :view do
 
       assert_select "textarea#book_description[name=?]", "book[description]"
 
-      assert_select "input#book_pubYear[name=?]", "book[pubYear]"
+      assert_select "input#book_year_published[name=?]", "book[year_published]"
 
       assert_select "input#book_author_id[name=?]", "book[author_id]"
     end

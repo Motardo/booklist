@@ -6,13 +6,13 @@ RSpec.describe "books/index", :type => :view do
       Book.create!(
         :title => "Title",
         :description => "MyText",
-        :pubYear => 1,
+        :year_published => 1,
         :author => nil
       ),
       Book.create!(
         :title => "Title",
         :description => "MyText",
-        :pubYear => 1,
+        :year_published => 1,
         :author => nil
       )
     ])

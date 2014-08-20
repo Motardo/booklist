@@ -3,7 +3,7 @@ class CreateBooks < ActiveRecord::Migration
     create_table :books do |t|
       t.string :title
       t.text :description
-      t.integer :pubYear
+      t.integer :year_published
       t.datetime :read_date
       t.references :author, index: true
 

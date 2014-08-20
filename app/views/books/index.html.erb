@@ -8,7 +8,7 @@
       <th><%= model_class.human_attribute_name(:id) %></th>
       <th><%= model_class.human_attribute_name(:title) %></th>
       <th><%= model_class.human_attribute_name(:description) %></th>
-      <th><%= model_class.human_attribute_name(:pubYear) %></th>
+      <th><%= model_class.human_attribute_name(:year_published) %></th>
       <th><%= model_class.human_attribute_name(:read_date) %></th>
       <th><%= model_class.human_attribute_name(:author_id) %></th>
       <th><%= model_class.human_attribute_name(:created_at) %></th>
@@ -21,7 +21,7 @@
         <td><%= link_to book.id, book_path(book) %></td>
         <td><%= book.title %></td>
         <td><%= book.description %></td>
-        <td><%= book.pubYear %></td>
+        <td><%= book.year_published %></td>
         <td><%= book.read_date %></td>
         <td><%= book.author_id %></td>
         <td><%=l book.created_at %></td>

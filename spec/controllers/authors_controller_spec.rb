@@ -24,13 +24,13 @@ RSpec.describe AuthorsController, :type => :controller do
   # Author. As you add validations to Author, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) {
-    {:firstName => 'Steven',
-    :lastName => 'King'}
+    {:first_name => 'Steven',
+    :last_name => 'King'}
   }
 
   let(:invalid_attributes) {
-    {:firstName => '',
-    :lastName => ''}
+    {:first_name => '',
+    :last_name => ''}
   }
 
   # This should return the minimal set of values that should be in the session

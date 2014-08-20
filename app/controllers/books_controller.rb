@@ -15,6 +15,11 @@ class BooksController < ApplicationController
 
   # GET /books/new
   def new
+    if @author == nil
+      respond_to do |format|
+        format.html { redirect_to authors_path, notice: 'Choose Author before adding book.' }
+      end
+    end
     @book = Book.new
   end
 
@@ -72,19 +77,26 @@ class BooksController < ApplicationController
     def set_author
       if params[:author_id]
         author = params[:author_id]
-      elsif
+      elsif params[:book]
         book = params[:book]
-        author = book[:author_id]
-      else
-        set_book
-        author = @book.author_id
+        if book[:author_id]
+          author = book[:author_id]
+        end
+      end
+      if author.blank?
+        if params[:id]
+          set_book
+          author = @book.author_id
+        end
       end
 
-      @author = Author.where("id = ?", author).first
+      if author
+        @author = Author.where("id = ?", author).first
+      end
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def book_params
-      params.require(:book).permit(:title, :description, :pubYear, :read_date, :author_id)
+      params.require(:book).permit(:title, :description, :year_published, :read_date, :author_id)
     end
 end
