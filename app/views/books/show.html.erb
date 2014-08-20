@@ -17,7 +17,7 @@
 </dl>
 
 <%= link_to t('.back', :default => t("helpers.links.back")),
-              author_path(@book.author_id), :class => 'btn btn-default'  %>
+              author_path(@author.id), :class => 'btn btn-default'  %>
 <%= link_to t('.edit', :default => t("helpers.links.edit")),
               edit_book_path(@book), :class => 'btn btn-default' %>
 <%= link_to t('.destroy', :default => t("helpers.links.destroy")),

@@ -7,4 +7,8 @@ class Author < ActiveRecord::Base
     book = Book.where("author_id = ?", id).order("readDate desc").first
     return book.readDate
   end
+
+  def name
+    self.firstName + " " + self.lastName
+  end
 end

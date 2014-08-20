@@ -1,5 +1,6 @@
 class BooksController < ApplicationController
   before_action :set_book, only: [:show, :edit, :update, :destroy]
+  before_action :set_author
 
   # GET /books
   # GET /books.json
@@ -28,7 +29,7 @@ class BooksController < ApplicationController
 
     respond_to do |format|
       if @book.save
-        format.html { redirect_to @book, notice: 'Book was successfully created.' }
+        format.html { redirect_to author_path(@book.author_id), notice: 'Book was successfully created.' }
         format.json { render :show, status: :created, location: @book }
       else
         format.html { render :new }
@@ -42,7 +43,7 @@ class BooksController < ApplicationController
   def update
     respond_to do |format|
       if @book.update(book_params)
-        format.html { redirect_to @book, notice: 'Book was successfully updated.' }
+        format.html { redirect_to author_path(@book.author_id), notice: 'Book was successfully updated.' }
         format.json { render :show, status: :ok, location: @book }
       else
         format.html { render :edit }
@@ -54,9 +55,10 @@ class BooksController < ApplicationController
   # DELETE /books/1
   # DELETE /books/1.json
   def destroy
+    author = @book.author_id
     @book.destroy
     respond_to do |format|
-      format.html { redirect_to books_url, notice: 'Book was successfully destroyed.' }
+      format.html { redirect_to author_path(author), notice: 'Book was successfully destroyed.' }
       format.json { head :no_content }
     end
   end
@@ -65,6 +67,20 @@ class BooksController < ApplicationController
     # Use callbacks to share common setup or constraints between actions.
     def set_book
       @book = Book.find(params[:id])
+    end
+
+    def set_author
+      if params[:author_id]
+        author = params[:author_id]
+      elsif
+        book = params[:book]
+        author = book[:author_id]
+      else
+        set_book
+        author = @book.author_id
+      end
+
+      @author = Author.where("id = ?", author).first
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.
