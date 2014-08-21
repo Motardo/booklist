@@ -46,11 +46,12 @@
           <span class="icon-bar"></span>
         </button>
         <%= link_to "Booklist", books_path, class: 'navbar-brand' %>
+        <%= link_to "Authors", authors_path, class: 'navbar-brand' %>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav">
             <li><%= link_to @menu1[:text], @menu1[:path] %></li>
             <li><%= link_to @menu2[:text], @menu2[:path] %></li>
-            <li><%= link_to "Authors", root_path %></li>
+            <li><%= link_to "List Authors", authors_path %></li>
           </ul>
         </div>
       </div>
