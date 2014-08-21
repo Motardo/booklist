@@ -7,8 +7,8 @@ class AuthorsController < ApplicationController
   def index
     if params[:sort] == 'recent'
       all = Author.all
-      @authors = all.sort_by { |a| a.last_read }
-      if params[:direction] == 'desc'
+      @authors = all.sort_by { |a| a.last_read_sort }
+      if params[:direction] == 'asc'
         @authors.reverse!
       end
     else

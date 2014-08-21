@@ -8,5 +8,10 @@ RSpec.describe "Books", :type => :request do
       get books_path
       expect(response.body).to include('Super Duper')
     end
+    it "displays book with no author" do
+      Book.create!(title: 'snuper druper')
+      get books_path
+      expect(response.body).to include('Snuper Druper')
+    end
   end
 end
